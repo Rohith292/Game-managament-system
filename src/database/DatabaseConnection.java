@@ -9,7 +9,7 @@ import com.mysql.cj.jdbc.Driver;
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/company"; // MySQL URL
     private static final String USER = "root"; // Your MySQL username
-    private static final String PASSWORD = "Rohith@123"; // Fixed the typo here
+    private static final String PASSWORD = "your_password"; // Fixed the typo here
 
     public static Connection getConnection() {
     try {
